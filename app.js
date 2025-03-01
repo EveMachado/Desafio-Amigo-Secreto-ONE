@@ -39,3 +39,17 @@ function removerAmigo(index) {
     nomes.splice(index, 1); // Remove pelo índice
     atualizarLista(); // Atualiza a lista na tela
 }
+
+function sortearAmigo() {
+    if (nomes.length === 0) { 
+        alert("Adicione pelo menos um amigo antes de sortear!");
+        return;
+    }
+
+    let indiceSorteado = Math.floor(Math.random() * nomes.length); 
+    let nomeSorteado = nomes[indiceSorteado]; 
+
+    // Exibe o nome sorteado na tela
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = `<li class="sorteado">🎉 ${nomeSorteado} foi sorteado! 🎉</li>`;
+}
