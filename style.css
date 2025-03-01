@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #0090D9; /* Azul do Gumball */
-    --color-secondary: #FF8C00; /* Laranja do Darwin */
-    --color-tertiary: #FFB84D; /* Laranja suave (um tom mais claro) */
-    --color-button: #00688B; /* Azul mais escuro para botões */
-    --color-button-hover: #003B5C; /* Azul ainda mais escuro para hover */
-    --color-text: #333333; /* Texto em cinza escuro */
+    --color-primary: #0090D9; 
+    --color-secondary: #FF8C00; 
+    --color-tertiary: #FFB84D; /
+    --color-button: #00688B; 
+    --color-button-hover: #003B5C; 
+    --color-text: #333333; 
     --color-white: #FFFFFF;
 }
 
@@ -41,11 +41,11 @@ body {
 }
 
 .darwin-image {
-    width: 180px; /* Ajusta o tamanho da imagem */
+    width: 180px; 
     margin-left: 50px; 
 }
 .gumball-image{
-    width: 210px; /* Ajusta o tamanho da imagem */
+    width: 210px; 
     margin-right: 50px; 
 }
 
@@ -95,6 +95,12 @@ body {
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
+}
+
+.OsDoisJuntos-image {
+    width: 65px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-right: 10px; /* Dá um espaço entre a imagem e o campo de texto */
 }
 
 .button-container {
