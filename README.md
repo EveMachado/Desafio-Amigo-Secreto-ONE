@@ -4,11 +4,11 @@ Este programa é um sorteador de nomes inspirado nos personagens Gumball e Darwi
 
 # :hammer: Funcionalidades 
 
-✔️ 'Adicionar Nomes': O usuário pode digitar um nome no campo de entrada e adicioná-lo à lista clicando no botão "Adicionar".Os nomes inseridos são exibidos em uma lista abaixo do campo de entrada.
+✔️ `Adicionar Nomes`: O usuário pode digitar um nome no campo de entrada e adicioná-lo à lista clicando no botão "Adicionar".Os nomes inseridos são exibidos em uma lista abaixo do campo de entrada.
 
-✔️ 'Remover Nomes': Cada nome adicionado pode ser removido individualmente caso tenha sido inserido por engano.
+✔️ `Remover Nomes`: Cada nome adicionado pode ser removido individualmente caso tenha sido inserido por engano.
 
-✔️ 'Sortear Nome': Após adicionar os participantes, o usuário pode clicar no botão "Sortear Amigo", e o programa escolherá aleatoriamente um nome da lista.
+✔️ `Sortear Nome`: Após adicionar os participantes, o usuário pode clicar no botão "Sortear Amigo", e o programa escolherá aleatoriamente um nome da lista.
 O nome sorteado será exibido de forma destacada na tela.
 
 # Aplicação
